@@ -1,0 +1,210 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #fbfbfb;
+}
+body{
+    background-color: rgb(1, 0, 12);
+}
+main{
+    padding: 10px;
+    text-decoration: #fbfbfb;
+}
+main h3{
+    color: white;
+}
+footer{
+    height: 100%;
+    background-color: rgb(147, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 768px){
+    body{
+        color: #fbfbfb;
+    }
+    .contenedor{
+        font-size: 3rem;
+    }
+}
+body h1{
+        margin: 0;
+        font-size: 3rem;
+}
+blockquote{
+    color: aliceblue;
+}
+.blockquote{
+    height: 100%;
+    width: 100%;
+    color: #fbfbfb;
+    padding: 5px 1px;
+    background-color: #7c6a6a;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.blockquote .tituloseccion2{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: solid orange;
+}
+.propiedades{
+    margin: 30px;
+    padding: 10px 0px 10px;
+    padding-left: 5px;
+    background-color: rgb(221, 84, 84);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.propiedades p{
+    text-decoration: underline;
+    color: #fbfbfb;
+}
+.cita{
+    text-transform: none;
+    font-style: italic;
+    position: relative;
+    text-align: left(10px);
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 10px 0px 10px;
+    padding-left: 15px;
+    margin-left: 40px;
+    border-left: 5px solid #645;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: antiquewhite ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.propiedadescajas{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding: 10px 30px 10px;
+    border-radius: 20px;
+    background-color: #515a51;
+    margin-bottom: 10px;
+}
+.propiedadescajas h3{
+    text-decoration: dotted;
+    
+}
+.propiedadescajas .caja1{
+    margin: 5px;
+    margin-bottom: 15px;
+    max-width: 4000px;
+    max-height: 50px;
+    border: solid #aaa;
+    border-radius: 15px;
+    padding: 10px 0px 10px;
+    padding-left: 25px;
+    box-shadow: 5px 5px 5px 5px #000;
+    background-color: #7c6a6a;
+}
+.propiedadescajas .caja2{
+    margin: 5px;
+    max-width: 4000px;
+    max-height: 50px;
+    border: solid #fbfbfb;
+    border-radius: 10px;
+    padding: 10px 0px 10px;
+    padding-left: 25px;
+    box-shadow: 5px 5px 9px 5px #fbfbfb;
+    background-color: #7c6a6a;
+}
+.posiciones{
+    margin: 30px;
+    padding: 10px 30px 10px;
+    padding-left: 5px;
+    background-color: rgb(221, 84, 84);
+    border: solid rgb(221, 84, 84);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    
+}
+.posiciones h3{
+    text-decoration: solid;
+
+}
+.posiciones .relativa{
+    margin-bottom: 10px;
+    position: relative;
+    left: auto;
+    top: auto;
+    background-color: #aaa;
+    padding: 10px 0px 10px;
+    padding-left: 10px;
+}
+.posiciones .absoluta{
+    position: absolute;
+    left: 460px;
+    top: 820px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #645;
+}
+.grid{
+    margin: 30px;
+    padding: 10px 30px 10px;
+    padding-left: 5px;
+    background-color: rgb(221, 84, 84);
+    border: solid rgb(221, 84, 84);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.grid-container {
+   display: grid;  
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   gap: 10px;
+   text-align: center;
+}
+.grid-container .griditem {
+ background-color: cornflowerblue;
+ border-radius: 10px;   
+}
+.Animaciones{
+    margin: 30px;
+    padding: 10px 30px 10px;
+    padding-left: 5px;
+    background-color: rgb(221, 84, 84);
+    border: solid rgb(221, 84, 84);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+@keyframes cambiar-color{
+    0% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+.Animaciones .animacion{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+    animation: cambiar-color 3s linear infinite;
+}
+@keyframes desplazar {
+        0% {
+            transform: translateX(0);
+            background-color: red;
+        }
+        50% {
+            transform: translateX(100px);
+            
+        }
+        100% {
+            transform: translateX(200px);
+        }
+    }   
+.Animaciones .mover{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: red;
+    animation: desplazar 4s ease-in-out 2s 3 alternate;
+}
