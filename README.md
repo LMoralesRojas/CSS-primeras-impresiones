@@ -58,10 +58,6 @@ El archivo CSS contiene el estilo para el documento HTML y está organizado de l
 
 Para visualizar el proyecto, simplemente abre el archivo `index.html` en un navegador web. Asegúrate de que el archivo `complemento.css` esté en la misma carpeta para que los estilos se apliquen correctamente.
 
-## Captura de Pantalla
-
-[Agrega aquí una captura de pantalla de la página si es necesario.]
-
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Puedes hacer uso del código según las condiciones de la licencia.
